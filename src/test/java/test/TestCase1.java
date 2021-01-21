@@ -18,5 +18,10 @@ public class TestCase1 extends BaseClass {
 		Assert.assertEquals(actualtitle, expectedTitle);
 		System.out.println("Searching passed");
 	}
+	
+	@Test
+	public void testcase1() {
+		System.out.println("This is test case 1");
+	}
 
 }
